@@ -18,9 +18,7 @@ public class ExercicioAula03Ex03 {
 			 if (numero != 0 && numero % 3 == 0) {
 	                soma += numero;
 	                quantidade++;
-	            }
-
-	        } while (numero != 0);
+	            }   } while (numero != 0);
 
 	        if (quantidade > 0) {
 	            double media = (double) soma / quantidade;
