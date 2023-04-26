@@ -8,7 +8,7 @@ public class Produto {
 	private String nome;
 	private int versao;
 	private float preco;
-	private LocalDate dataLancamento;
+	protected LocalDate dataLancamento;
 	
 	
 	public Produto(float codigo, String nome, int versao, float preco, LocalDate dataLancamento) {
@@ -70,13 +70,7 @@ public class Produto {
 		this.dataLancamento = dataLancamento;
 	}
 	
-	public void visualizar() {
-		
-		System.out.println("Codigo:"+codigo);
-		System.out.println("Nome do Jogo:"+nome);
-		System.out.println("Versao:"+versao);
-		System.out.println("Valor:"+preco);
-		System.out.println("Data De Lancamento:"+dataLancamento);
-	}
+	public void vizualizar() {		
+}
 	
 }
